@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06174990296BC40B002E561C /* WishListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0617498F296BC40B002E561C /* WishListViewController.swift */; };
+		062DD3BC2993E18700DDDF4D /* UserClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062DD3BB2993E18700DDDF4D /* UserClass.swift */; };
+		062DD3BE2995FDA200DDDF4D /* ListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062DD3BD2995FDA200DDDF4D /* ListsViewController.swift */; };
+		062DD3C02996009700DDDF4D /* SeeItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062DD3BF2996009700DDDF4D /* SeeItemsViewController.swift */; };
+		064F231C297984AE00525282 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064F231B297984AE00525282 /* CustomCell.swift */; };
+		064F231E2979853800525282 /* StaticClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064F231D2979853800525282 /* StaticClass.swift */; };
+		064F23222981E81C00525282 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064F23212981E81C00525282 /* ProfileViewController.swift */; };
+		064F23242981ED4900525282 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064F23232981ED4900525282 /* TableCell.swift */; };
 		06EB390B2958C2560047163F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EB390A2958C2560047163F /* AppDelegate.swift */; };
 		06EB390D2958C2560047163F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EB390C2958C2560047163F /* SceneDelegate.swift */; };
 		06EB390F2958C2560047163F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EB390E2958C2560047163F /* ViewController.swift */; };
@@ -37,6 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0617498F296BC40B002E561C /* WishListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListViewController.swift; sourceTree = "<group>"; };
+		062DD3BB2993E18700DDDF4D /* UserClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserClass.swift; sourceTree = "<group>"; };
+		062DD3BD2995FDA200DDDF4D /* ListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsViewController.swift; sourceTree = "<group>"; };
+		062DD3BF2996009700DDDF4D /* SeeItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeItemsViewController.swift; sourceTree = "<group>"; };
+		064F231B297984AE00525282 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		064F231D2979853800525282 /* StaticClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticClass.swift; sourceTree = "<group>"; };
+		064F23212981E81C00525282 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		064F23232981ED4900525282 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		06EB39072958C2560047163F /* PPresent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPresent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06EB390A2958C2560047163F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06EB390C2958C2560047163F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +121,14 @@
 				06EB390C2958C2560047163F /* SceneDelegate.swift */,
 				06EB390E2958C2560047163F /* ViewController.swift */,
 				06EB39102958C2560047163F /* Main.storyboard */,
+				062DD3BF2996009700DDDF4D /* SeeItemsViewController.swift */,
+				062DD3BD2995FDA200DDDF4D /* ListsViewController.swift */,
+				064F23232981ED4900525282 /* TableCell.swift */,
+				064F23212981E81C00525282 /* ProfileViewController.swift */,
+				062DD3BB2993E18700DDDF4D /* UserClass.swift */,
+				064F231B297984AE00525282 /* CustomCell.swift */,
+				064F231D2979853800525282 /* StaticClass.swift */,
+				0617498F296BC40B002E561C /* WishListViewController.swift */,
 				06EB39162958C2600047163F /* Assets.xcassets */,
 				06EB39182958C2600047163F /* LaunchScreen.storyboard */,
 				06EB391B2958C2600047163F /* Info.plist */,
@@ -261,9 +285,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				064F23242981ED4900525282 /* TableCell.swift in Sources */,
 				06EB390F2958C2560047163F /* ViewController.swift in Sources */,
+				062DD3BE2995FDA200DDDF4D /* ListsViewController.swift in Sources */,
+				06174990296BC40B002E561C /* WishListViewController.swift in Sources */,
 				06EB390B2958C2560047163F /* AppDelegate.swift in Sources */,
+				062DD3C02996009700DDDF4D /* SeeItemsViewController.swift in Sources */,
 				06EB39152958C2560047163F /* PPresent.xcdatamodeld in Sources */,
+				064F231E2979853800525282 /* StaticClass.swift in Sources */,
+				064F231C297984AE00525282 /* CustomCell.swift in Sources */,
+				062DD3BC2993E18700DDDF4D /* UserClass.swift in Sources */,
+				064F23222981E81C00525282 /* ProfileViewController.swift in Sources */,
 				06EB390D2958C2560047163F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
